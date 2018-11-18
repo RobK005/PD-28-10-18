@@ -1,6 +1,3 @@
-
-var myVar = setInterval(Timer, 1000);
-
 function Timer() {
     function addZero(i) {
         if (i < 10) {
@@ -25,3 +22,6 @@ function Timer() {
     document.getElementById('sek0').innerHTML = sekStr[0];
     document.getElementById('sek1').innerHTML = sekStr[1];
 }
+
+var myVar = setInterval(Timer, 1000);
+Timer()
