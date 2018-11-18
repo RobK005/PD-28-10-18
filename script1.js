@@ -28,7 +28,8 @@ var minNum = array[0];
 for (i = 0; i < array.length; i++) {
     if (maxNum < array[i] ) {
         maxNum = array[i];
-    } else if (minNum > array[i]) {
+    } 
+    if (minNum > array[i]) {
         minNum = array[i];
     }
 }
